@@ -8,7 +8,7 @@ import "forge-std/console2.sol";
 contract PollAttest {
     IntuitionV2 public intuition;
 
-    string public OPTION_POLL_CONNECTION_DESCRIPTOR = "in poll";
+    string public OPTION_POLL_CONNECTION_DESCRIPTOR = "vote cast in poll";
     IERC20 sentiment;
     uint32 BONDING_CURVE = 500000;
 
@@ -207,6 +207,27 @@ contract PollAttest {
                 poll,
                 false,
                 BONDING_CURVE,
+                user,
+                v,
+                r,
+                s,
+                _msg
+            );
+        } else {
+            intuition.stakeClaimWithPermit(
+                keccak256(
+                    bytes(
+                        string.concat(
+                            OPTION_POLL_CONNECTION_DESCRIPTOR,
+                            ".",
+                            option,
+                            ".",
+                            poll
+                        )
+                    )
+                ),
+                1,
+                false,
                 user,
                 v,
                 r,

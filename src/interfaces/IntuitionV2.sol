@@ -97,4 +97,10 @@ interface IntuitionV2 {
         bytes32 s,
         bytes32 _msg
     ) external;
+
+    function getStakedSharesClaimContext(
+        bytes32 claimID, // claim id for <option> <has been voted for> <poll>
+        string memory contextName, // "has been voted for"
+        bool counter
+    ) external returns (uint256 stakedShares);
 }
