@@ -1,0 +1,40 @@
+{
+  "transactions": [
+    {
+      "hash": "0x354c1f025eca8090ffe7053a7f5bc0d6899084b3d23d6214dee4ff1fe7f3f4eb",
+      "transactionType": "CALL",
+      "contractName": null,
+      "contractAddress": "0xa4a4D61AF3BD68567019bD15AE45B994D9060e75",
+      "function": null,
+      "arguments": null,
+      "rpc": "https://polygon-mumbai.g.alchemy.com/v2/nvDcjm620JVyXMPQ1gOMLfmP9kgO-LlI",
+      "transaction": {
+        "type": "0x02",
+        "from": "0x6b466d9492dc28fc4a83454d335e53e1a7dd910d",
+        "to": "0xa4a4d61af3bd68567019bd15ae45b994d9060e75",
+        "gas": "0x109e7",
+        "value": "0x0",
+        "data": "0x095ea7b300000000000000000000000041fc75bcdaccfec33d535ff4894d11618ae0e6a1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+        "nonce": "0x1",
+        "accessList": []
+      },
+      "additionalContracts": []
+    }
+  ],
+  "receipts": [],
+  "libraries": [],
+  "pending": [
+    "0x354c1f025eca8090ffe7053a7f5bc0d6899084b3d23d6214dee4ff1fe7f3f4eb"
+  ],
+  "path": "/Users/christian/projects/ethporto-hack-contracts/broadcast/allow.s.sol/80001/run-latest.json",
+  "returns": {
+    "0": {
+      "internal_type": "address",
+      "value": "0x41FC75BCDacCfEC33d535Ff4894D11618aE0E6A1"
+    }
+  },
+  "timestamp": 1679116988,
+  "chain": 80001,
+  "multi": false,
+  "commit": "ee22347"
+}

@@ -1,0 +1,87 @@
+{
+  "transactions": [
+    {
+      "hash": "0x354c1f025eca8090ffe7053a7f5bc0d6899084b3d23d6214dee4ff1fe7f3f4eb",
+      "transactionType": "CALL",
+      "contractName": null,
+      "contractAddress": "0xa4a4D61AF3BD68567019bD15AE45B994D9060e75",
+      "function": null,
+      "arguments": null,
+      "rpc": "https://polygon-mumbai.g.alchemy.com/v2/nvDcjm620JVyXMPQ1gOMLfmP9kgO-LlI",
+      "transaction": {
+        "type": "0x02",
+        "from": "0x6b466d9492dc28fc4a83454d335e53e1a7dd910d",
+        "to": "0xa4a4d61af3bd68567019bd15ae45b994d9060e75",
+        "gas": "0x109e7",
+        "value": "0x0",
+        "data": "0x095ea7b300000000000000000000000041fc75bcdaccfec33d535ff4894d11618ae0e6a1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+        "nonce": "0x1",
+        "accessList": []
+      },
+      "additionalContracts": []
+    }
+  ],
+  "receipts": [
+    {
+      "transactionHash": "0x354c1f025eca8090ffe7053a7f5bc0d6899084b3d23d6214dee4ff1fe7f3f4eb",
+      "transactionIndex": "0x0",
+      "blockHash": "0xbd01c95fad604ee936abdbc72215265c91433875c030729ea02bc0dbdd4ede95",
+      "blockNumber": "0x1fb65f9",
+      "from": "0x6b466d9492Dc28FC4a83454d335E53e1a7Dd910D",
+      "to": "0xa4a4D61AF3BD68567019bD15AE45B994D9060e75",
+      "cumulativeGasUsed": "0xb5d1",
+      "gasUsed": "0xb5d1",
+      "contractAddress": null,
+      "logs": [
+        {
+          "address": "0xa4a4D61AF3BD68567019bD15AE45B994D9060e75",
+          "topics": [
+            "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925",
+            "0x0000000000000000000000006b466d9492dc28fc4a83454d335e53e1a7dd910d",
+            "0x00000000000000000000000041fc75bcdaccfec33d535ff4894d11618ae0e6a1"
+          ],
+          "data": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+          "blockHash": "0xbd01c95fad604ee936abdbc72215265c91433875c030729ea02bc0dbdd4ede95",
+          "blockNumber": "0x1fb65f9",
+          "transactionHash": "0x354c1f025eca8090ffe7053a7f5bc0d6899084b3d23d6214dee4ff1fe7f3f4eb",
+          "transactionIndex": "0x0",
+          "logIndex": "0x0",
+          "removed": false
+        },
+        {
+          "address": "0x0000000000000000000000000000000000001010",
+          "topics": [
+            "0x4dfe1bbbcf077ddc3e01291eea2d5c70c2b422b415d95645b9adcfd678cb1d63",
+            "0x0000000000000000000000000000000000000000000000000000000000001010",
+            "0x0000000000000000000000006b466d9492dc28fc4a83454d335e53e1a7dd910d",
+            "0x000000000000000000000000be188d6641e8b680743a4815dfa0f6208038960f"
+          ],
+          "data": "0x0000000000000000000000000000000000000000000000000000d3a982e9eac10000000000000000000000000000000000000000000000000de0620973022c00000000000000000000000000000000000000000000002eda894f762f0702807a0000000000000000000000000000000000000000000000000ddf8e5ff018413f000000000000000000000000000000000000000000002eda895049d889ec6b3b",
+          "blockHash": "0xbd01c95fad604ee936abdbc72215265c91433875c030729ea02bc0dbdd4ede95",
+          "blockNumber": "0x1fb65f9",
+          "transactionHash": "0x354c1f025eca8090ffe7053a7f5bc0d6899084b3d23d6214dee4ff1fe7f3f4eb",
+          "transactionIndex": "0x0",
+          "logIndex": "0x1",
+          "removed": false
+        }
+      ],
+      "status": "0x1",
+      "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000004000010000000000008000000000000000000000200000000000002000000000000000000000800400000000000020000100000000004000000000000040000000000000000000000000000000000080000000000000000000000000000000000000000000000000000000000080000000000000000000220000000100000000000000000000000000000000000000000000000000004000000000000000000001000000000000000200000000000000100040000000000010000000000000000000000000080000000000000000000000000000100000",
+      "type": "0x2",
+      "effectiveGasPrice": "0x12a05f200"
+    }
+  ],
+  "libraries": [],
+  "pending": [],
+  "path": "/Users/christian/projects/ethporto-hack-contracts/broadcast/allow.s.sol/80001/run-latest.json",
+  "returns": {
+    "0": {
+      "internal_type": "address",
+      "value": "0x41FC75BCDacCfEC33d535Ff4894D11618aE0E6A1"
+    }
+  },
+  "timestamp": 1679116995,
+  "chain": 80001,
+  "multi": false,
+  "commit": "ee22347"
+}

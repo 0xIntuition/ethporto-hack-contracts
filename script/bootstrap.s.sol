@@ -18,7 +18,6 @@ contract BootstrapScript is Script {
     function run() public {
         uint256 privKey = vm.envUint("ETH_PRIV_KEY");
         vm.startBroadcast(privKey);
-
         sentiment.mint(address(pollAttest), 1000000000000000000000000000);
         sentiment.mint(address(add), 1000000000000000000000000000);
         sentiment.permit(
